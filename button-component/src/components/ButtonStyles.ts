@@ -8,20 +8,20 @@ export const variantStyles = {
 
 export const variantColorStyles = {
 	default:
-		"text-[hsl(0,0%,88%)] border-[hsl(0,0%,88%)] focus:hover:bg-[hsl(0,0%,68%)] focus:hover:backdrop-brightness-200 ",
+		"text-[hsl(0,0%,88%)] border-[hsl(0,0%,88%)] hover:bg-[hsl(0,0%,68%)] hover:backdrop-brightness-200 focus:bg-[hsl(0,0%,68%)] focus:backdrop-brightness-200",
 	primary:
-		"text-[hsl(224,100%,58%)] border-[hsl(224,100%,58%)] focus:hover:bg-[hsl(223,100%,85%)] focus:hover:backdrop-brightness-200",
+		"text-[hsl(224,100%,58%)] border-[hsl(224,100%,58%)] hover:bg-[hsl(223,100%,85%)] hover:backdrop-brightness-200 focus:bg-[hsl(223,100%,85%)] focus:backdrop-brightness-200",
 	secondary:
-		"text-[hsl(199,18%,33%)] border-[hsl(199,18%,33%)] focus:hover:bg-[hsl(198,35%,57%)] focus:hover:backdrop-brightness-200",
-	danger: "text-[hsl(0,65%,51%)] border-[hsl(0,65%,51%)]  focus:hover:bg-[hsl(357,100%,75%)]",
+		"text-[hsl(199,18%,33%)] border-[hsl(199,18%,33%)] hover:bg-[hsl(198,35%,57%)] hover:backdrop-brightness-200 focus:bg-[hsl(198,35%,57%)] focus:backdrop-brightness-200",
+	danger: "text-[hsl(0,65%,51%)] border-[hsl(0,65%,51%)]  hover:bg-[hsl(357,100%,75%)]  focus:bg-[hsl(357,100%,75%)]",
 	disabled: "text-[hsl(0,0%,62%)] border-[hsl(0,0%,88%)]",
 };
 
 export const colorStyles = {
 	default: "bg-[#E0E0E0] hover:bg-[#AEAEAE] focus:bg-[#AEAEAE]",
-	primary: "bg-[#2962FF] text-white focus:hover:bg-[#0039CB]",
-	secondary: "bg-[#455A64] text-white focus:hover:bg-[#1C313A]",
-	danger: "bg-[#D32F2F] text-white focus:hover:bg-[#9A0007]",
+	primary: "bg-[#2962FF] text-white hover:bg-[#0039CB] focus:bg-[#0039CB]",
+	secondary: "bg-[#455A64] text-white hover:bg-[#1C313A] focus:bg-[#1C313A]",
+	danger: "bg-[#D32F2F] text-white hover:bg-[#9A0007] focus:bg-[#9A0007]",
 	disabled: "text-[hsl(0,0%,62%)] bg-[#E0E0E0]",
 };
 
