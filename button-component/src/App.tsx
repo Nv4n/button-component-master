@@ -47,6 +47,24 @@ function App() {
 					labelText={"<Button startIcon=”local_grocery_store” />"}
 				></ButtonContainer>
 				<ButtonContainer
+					startIcon="local_grocery_store"
+					color="secondary"
+					variant="text"
+					labelText={
+						// eslint-disable-next-line quotes
+						'<Button startIcon="local_grocery_store" variant="text" color="secondary" />'
+					}
+				></ButtonContainer>
+				<ButtonContainer
+					startIcon="local_grocery_store"
+					color="danger"
+					variant="outline"
+					labelText={
+						// eslint-disable-next-line quotes
+						'<Button startIcon="local_grocery_store" variant="outline" color="danger" />'
+					}
+				></ButtonContainer>
+				<ButtonContainer
 					endIcon="local_grocery_store"
 					color="primary"
 					labelText={"<Button endIcon=”local_grocery_store” />"}
