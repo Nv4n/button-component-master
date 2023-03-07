@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://button-component-master-5ev7pj2tq-nv4n.vercel.app">
+    <a href="https://button-component-master-six.vercel.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://https://github.com/Nv4n/button-component-master">
+    <a href="https://github.com/Nv4n/button-component-master">
       Solution
     </a>
     <span> | </span>
